@@ -1,0 +1,158 @@
+body {
+    background: #f8f6f6;
+    /* background-image: url(img1.png); */
+    font-family: "Nunito", sans-serif;
+}
+
+.blurb h2 {
+   color: #EA1C2C;
+   font-weight: 100;
+   font-size: 2.5rem;
+}
+
+.blurb p {
+    color: #080003;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+/* navbar */
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;    
+}
+
+#mainNavbar .nav-link {
+    color: rgb(2, 1, 1);
+}
+
+#mainNavbar .nav-link:hover {
+    color: #EA1C2C;
+}
+
+#mainNavbar .navbar-brand {
+    color: #EA1C2C;
+    font-size: 1.5rem;
+}
+
+#headingGroup span {
+    color: #EA1C2C;
+}
+
+#img1 {
+    height: auto;
+    max-width: 122.2%;
+}
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+.navbar.scrolled {
+    background: rgba(255, 219, 219, 0.918);
+    transition: background 500ms;
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+    .blurb h2 {
+        font-size: 2rem;
+    }
+}
+
+/* slidedown */
+#iconicon {
+    color: #EA1C2C;
+    size: 120%;
+}
+
+/* slider */
+.bd-example {
+    margin: auto;
+    margin-top: 10%;
+    height: 800px;
+    width: 1067px;
+}
+
+/* socmed icon */
+.bottomicon {
+    margin:0;
+}
+
+.icon-bar {
+  width: 100%;
+  background-color:transparent;
+  overflow: auto;
+}
+
+.icon-bar a {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 26px;
+}
+
+.icon-bar a:hover {
+  background-color: transparent;
+}
+
+.active {
+  background-color: #EA1C2C;
+}
+
+  /* column */
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 50%;
+    padding: 20px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* link */
+  a:link {
+      color: #EA1C2C;
+      background-color: transparent;
+      text-decoration: none;
+  }
+  a:visited {
+      color: #EA1C2C;
+      background-color: transparent;
+      text-decoration: none;
+  }
+  a:hover {
+      color: darkslategray;
+      background-color: transparent;
+      text-decoration: underline;
+  }
+  a:active {
+      color: coral;
+      background-color: transparent;
+      text-decoration: underline;
+  }
+
+  footer {
+      padding-top: 30px;
+  }
+
